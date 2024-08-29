@@ -18,7 +18,7 @@ app.post('/api/bearing', calculateBearingController);
 app.get('/api/nearest', getNearestPumps);  // Fixed route path
 app.get('/nearest' , nearest.getNearestPumps)
 
-const PORT = process.env.PORT || 5000;
+const PORT = process.env.PORT || 3000;
 
 app.listen(PORT, () => {
   console.log(`Server running on port ${PORT}`);  // Fixed console.log statement
